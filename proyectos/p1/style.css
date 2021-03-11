@@ -19,6 +19,11 @@ input{
     width: 150px;
     height: 25px;
     padding: 0 5px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+input :focus{
+    outline: none;
 }
 .btn{
     padding: 5px 10px;
@@ -27,4 +32,6 @@ input{
     color: #fff;
     border: 1px solid #fff;
    font-family:"Open Sans",sans-serif;
+   font-weight: 700;
+   border-radius: 10px;
 }
